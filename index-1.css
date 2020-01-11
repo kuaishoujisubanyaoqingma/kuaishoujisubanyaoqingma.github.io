@@ -1,0 +1,150 @@
+.com-about {
+	font-size: 14px;
+}
+.com-about h1 {
+	height: 30px; text-align: center; color: rgb(48, 48, 48); line-height: 30px; font-size: 24px; font-weight: 700; margin-top: 50px;
+}
+.com-about .desc {
+	text-align: center; color: rgb(94, 94, 94); margin-top: 30px;
+}
+.com-about .desc p {
+	height: 36px; line-height: 36px;
+}
+.com-about .line-wrap {
+	margin: 50px auto 20px; height: 2005px; position: relative;
+}
+.com-about .line-wrap .main-line {
+	background: rgb(241, 241, 241); margin: 0px auto; width: 2px; height: 1925px; position: relative;
+}
+.com-about .line-wrap .main-line .dot-now {
+	background: rgb(255, 106, 64); border-radius: 50%; left: -30px; top: 0px; width: 60px; height: 60px; text-align: center; color: rgb(255, 255, 255); line-height: 60px; font-weight: 700; display: inline-block; position: absolute; z-index: 2;
+}
+.com-about .line-wrap .main-line .dot-now::after {
+	background: rgb(255, 106, 64); border-radius: 50%; animation:ripple 2s infinite; display: block; position: absolute; z-index: -1; content: " "; box-shadow: inset 0px 0px 80px rgba(254,130,87,0.1); -webkit-box-shadow: 0 0 80px rgba(254, 130, 87, .1) inset; -webkit-animation: ripple 2s ease 0s infinite normal;
+}
+.com-about .line-wrap .main-line .dot-2011 {
+	background: rgb(186, 186, 186); border-radius: 50%; left: -30px; width: 60px; height: 60px; text-align: center; bottom: 0px; color: rgb(255, 255, 255); line-height: 60px; display: inline-block; position: absolute;
+}
+.com-about .line-wrap .main-line .dot {
+	border-radius: 50%; border: 5px solid rgb(255, 255, 255); border-image: none; left: -12px; width: 26px; height: 26px; display: inline-block; position: absolute; box-sizing: border-box; background-clip: content-box; -webkit-box-sizing: border-box;
+}
+.com-about .line-wrap .main-line .dot .time-wrap {
+	top: -12px; text-align: left; position: absolute;
+}
+.com-about .line-wrap .main-line .dot .time-wrap h2 {
+	height: 40px; line-height: 40px; font-size: 24px;
+}
+.com-about .line-wrap .main-line .dot .time-wrap p {
+	color: rgb(94, 94, 94); line-height: 28px; font-size: 14px;
+}
+.com-about .line-wrap .main-line .left {
+	left: -479px; width: 467px;
+}
+.com-about .line-wrap .main-line .left h2 {
+	text-align: right; padding-right: 116px; font-weight: 700;
+}
+.com-about .line-wrap .main-line .left h2::after {
+	top: 17px; width: 30px; height: 4px; right: 40px; display: inline-block; position: absolute; content: " ";
+}
+.com-about .line-wrap .main-line .left p {
+	padding-right: 107px; font-size: 14px;
+}
+.com-about .line-wrap .main-line .right {
+	left: 26px; width: 369px; padding-left: 110px;
+}
+.com-about .line-wrap .main-line .right h2 {
+	text-align: left; font-weight: 700;
+}
+.com-about .line-wrap .main-line .right h2::before {
+	left: 40px; top: 17px; width: 30px; height: 4px; display: inline-block; position: absolute; content: " ";
+}
+.com-about .line-wrap .main-line .dot-2018-6 {
+	top: 205px; background-color: rgb(255, 106, 64);
+}
+.com-about .line-wrap .main-line .dot-2018-6 .time-wrap h2 {
+	color: rgb(255, 106, 64);
+}
+.com-about .line-wrap .main-line .dot-2018-6 .time-wrap h2::after {
+	background: rgb(255, 106, 64);
+}
+.com-about .line-wrap .main-line .dot-2017-12 {
+	top: 375px; background-color: rgb(255, 158, 91);
+}
+.com-about .line-wrap .main-line .dot-2017-12 .time-wrap h2 {
+	color: rgb(255, 158, 91);
+}
+.com-about .line-wrap .main-line .dot-2017-12 .time-wrap h2::before {
+	background: rgb(255, 158, 91);
+}
+.com-about .line-wrap .main-line .dot-2016-4 {
+	top: 540px; background-color: rgb(130, 197, 77);
+}
+.com-about .line-wrap .main-line .dot-2016-4 .time-wrap h2 {
+	color: rgb(130, 197, 77);
+}
+.com-about .line-wrap .main-line .dot-2016-4 .time-wrap h2::after {
+	background: rgb(130, 197, 77);
+}
+.com-about .line-wrap .main-line .dot-2015-8 {
+	top: 705px; background-color: rgb(94, 180, 255);
+}
+.com-about .line-wrap .main-line .dot-2015-8 .time-wrap h2 {
+	color: rgb(94, 180, 255);
+}
+.com-about .line-wrap .main-line .dot-2015-8 .time-wrap h2::before {
+	background: rgb(94, 180, 255);
+}
+.com-about .line-wrap .main-line .dot-2015-6 {
+	top: 870px; background-color: rgb(107, 94, 214);
+}
+.com-about .line-wrap .main-line .dot-2015-6 .time-wrap h2 {
+	color: rgb(107, 94, 214);
+}
+.com-about .line-wrap .main-line .dot-2015-6 .time-wrap h2::after {
+	background: rgb(107, 94, 214);
+}
+.com-about .line-wrap .main-line .dot-2015-06 {
+	top: 1035px; background-color: rgb(126, 107, 204);
+}
+.com-about .line-wrap .main-line .dot-2015-06 .time-wrap h2 {
+	color: rgb(126, 107, 204);
+}
+.com-about .line-wrap .main-line .dot-2015-06 .time-wrap h2::before {
+	background: rgb(126, 107, 204);
+}
+.com-about .line-wrap .main-line .dot-2014-11 {
+	top: 1205px; background-color: rgb(166, 126, 175);
+}
+.com-about .line-wrap .main-line .dot-2014-11 .time-wrap h2 {
+	color: rgb(166, 126, 175);
+}
+.com-about .line-wrap .main-line .dot-2014-11 .time-wrap h2::after {
+	background: rgb(166, 126, 175);
+}
+.com-about .line-wrap .main-line .dot-2013-10 {
+	top: 1370px; background-color: rgb(112, 101, 107);
+}
+.com-about .line-wrap .main-line .dot-2013-10 .time-wrap h2 {
+	color: rgb(112, 101, 107);
+}
+.com-about .line-wrap .main-line .dot-2013-10 .time-wrap h2::before {
+	background: rgb(112, 101, 107);
+}
+.com-about .line-wrap .main-line .dot-2012-11 {
+	top: 1535px; background-color: rgb(125, 110, 115);
+}
+.com-about .line-wrap .main-line .dot-2012-11 .time-wrap h2 {
+	color: rgb(125, 110, 115);
+}
+.com-about .line-wrap .main-line .dot-2012-11 .time-wrap h2::after {
+	background: rgb(125, 110, 115);
+}
+.com-about .line-wrap .main-line .dot-2011-3 {
+	top: 1700px; background-color: rgb(125, 125, 125);
+}
+.com-about .line-wrap .main-line .dot-2011-3 .time-wrap h2 {
+	color: rgb(125, 125, 125);
+}
+.com-about .line-wrap .main-line .dot-2011-3 .time-wrap h2::before {
+	background: rgb(125, 125, 125);
+}
